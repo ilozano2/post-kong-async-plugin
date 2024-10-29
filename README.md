@@ -19,6 +19,10 @@ I know there are other ways to fix this issue, but the purpose is just to explor
 - [x] When upstream responds, the plugin will switch `202 Accepted` to the real response
 - [x] When the client sends the same request adding the header `X-Async-Kong-Id` and upstream already responded, the plugin returns the upstream responses including headers and body
 
+
+![Screen Recording 2024-10-29 at 13 35 21](https://github.com/user-attachments/assets/e303fbce-51d1-416f-bbf3-2afab50fa1b5)
+
+
 ## TL;DR
 
 Because I am just running a POC on my local machine, I used [Kong Pongo cli](https://github.com/Kong/kong-pongo).
