@@ -11,7 +11,8 @@ It could happen for several reasons:
 This post aims to demonstrate a POC that will turn blocking APIs into async APIs using [Kong API Gateway](https://konghq.com/products/kong-gateway).
 I know there are other ways to fix this issue, but the purpose is just to explore the Kong PDK (Plugin Development Kit) and make a fast POC for proving it can be handled by Kong Gateway
 
-## Requirements
+
+## Requirements
 
 - [x] Any request captured by the Async Plugin generates an ID and returns it in a header `X-Async-Kong-Id`
 - [x] The captured request is responded with Status [`202 Accepted`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/202), and the request is forwarded upstream in a different thread
@@ -48,7 +49,7 @@ For something more serious, I would store temporal responses in a different form
 
 Also, Cache can be used for binding a TTL to temporal requests/responses.
 
-### TODO
+## TODO
 
 
 
