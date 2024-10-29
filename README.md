@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/970369de-cbcd-4733-b582-6a6b638a45df)
+
 # Motivation
 
 Sometimes, developers must integrate a blocking HTTP API, whose responses take longer than developers can handle.
@@ -19,10 +21,6 @@ I know there are other ways to fix this issue, but the purpose is just to explor
 - [x] When the client sends the same request adding the header `X-Async-Kong-Id` and upstream hasn't respond yet, the plugin responds `202 Accepted` as a signal that it is in progress
 - [x] When upstream responds, the plugin will switch `202 Accepted` to the real response
 - [x] When the client sends the same request adding the header `X-Async-Kong-Id` and upstream already responded, the plugin returns the upstream responses including headers and body
-
-![image](https://github.com/user-attachments/assets/970369de-cbcd-4733-b582-6a6b638a45df)
-
-
 
 ## Demo
 
