@@ -52,6 +52,10 @@ For something more serious, I would store temporal responses in a different form
 
 Also, Cache can be used for binding a TTL to temporal requests/responses.
 
+### Async API documentation
+
+I didn't include it in the POC, but it would be interesting to generate [AsyncApi documentation](https://www.asyncapi.com/en) when the plugin is applied to a service/route.
+
 ## TODO
 
 
