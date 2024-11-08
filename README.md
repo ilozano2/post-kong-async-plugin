@@ -13,6 +13,11 @@ It could happen for several reasons:
 This post aims to demonstrate a POC that will turn blocking APIs into async APIs using [Kong API Gateway](https://konghq.com/products/kong-gateway).
 I know there are other ways to fix this issue, but the purpose is just to explore the Kong PDK (Plugin Development Kit) and make a fast POC for proving it can be handled by Kong Gateway
 
+# Disclaimer
+
+This is a Proof Of Concept and is not intended for production.
+
+The code is stored in a private repository and it is in progress - it requires some refactoring; please send me a message to get access to: https://github.com/ilozano2/kong-async-plugin
 
 ## Requirements
 
